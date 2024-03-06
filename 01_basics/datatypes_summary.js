@@ -18,6 +18,17 @@ const BigInt = 32424234234242424n  //bigint
 console.log(typeof BigInt);
 
 // REFERENCE OR Non-Primitive
-// Arrays,Objects,Functions 
+// Arrays,Objects,Functions ==> datatypes object
+const heros = ['iron man','spider man','deadpool','captain america']
+let myObj = {
+    name: "prasun",
+    surName : "maity",
+    age : 21
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+myFunction()
 
 // JavaScript is a dynamically typed language
