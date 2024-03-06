@@ -32,3 +32,26 @@ const myFunction = function(){
 myFunction()
 
 // JavaScript is a dynamically typed language
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive) and Heap(Reference)
+// Stack(Primitive)
+let ytname = 'prasunmaity.com'
+let yt2name = ytname
+yt2name = 'parthamaity.com'
+
+console.log(ytname);
+console.log(yt2name);
+
+// Heap(Reference)
+let det1 = {
+    name : "prasun",
+    age : 23
+}
+let det2 = det1
+det2.age = 21
+
+console.log(det1.age);
+console.log(det2.age);
